@@ -8,24 +8,59 @@
 </head>
 <body>
 
-  <header>
-    <h1>FITZONE</h1>
-  </header>
+<header>
+  <h1>FITZONE</h1>
+</header>
 
-  <section class="hero">
-    <h2>TRANSFORMA TU CUERPO</h2>
+<section class="hero" id="inicio">
+  <h2>TRANSFORMA TU CUERPO</h2>
+  <p>Gimnasio premium con entrenadores profesionales</p>
 
-    <p>
-      Gimnasio premium con entrenadores profesionales
-    </p>
+  <img src="gym.jpg" alt="Gym">
 
-    <img src="gym.jpg">
+  <div class="botones">
+    <button onclick="document.getElementById('planes').scrollIntoView({behavior:'smooth'})">
+      Ver Planes
+    </button>
 
-    <div class="botones">
-      <button>Ver Planes</button>
-      <button>WhatsApp</button>
+    <button onclick="window.open('https://wa.me/549XXXXXXXXXX','_blank')">
+      WhatsApp
+    </button>
+  </div>
+</section>
+
+<section id="planes">
+  <h2 class="titulo-planes">PLANES</h2>
+
+  <div class="planes">
+
+    <div class="plan">
+      <h3>Básico</h3>
+      <p>$15.000</p>
+      <button onclick="whatsapp('Básico')">Elegir</button>
     </div>
-  </section>
+
+    <div class="plan premium">
+      <h3>Premium</h3>
+      <p>$25.000</p>
+      <button onclick="whatsapp('Premium')">Elegir</button>
+    </div>
+
+    <div class="plan">
+      <h3>Elite</h3>
+      <p>$40.000</p>
+      <button onclick="whatsapp('Elite')">Elegir</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="contacto">
+  <h2>CONTACTO</h2>
+  <button onclick="window.open('https://wa.me/549XXXXXXXXXX','_blank')">
+    WhatsApp
+  </button>
+</section>
 
 <script src="script.js"></script>
 </body>
