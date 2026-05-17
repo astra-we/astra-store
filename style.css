@@ -10,18 +10,16 @@ body{
 header{
   position:sticky;
   top:0;
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.95);
   backdrop-filter:blur(10px);
-  padding:20px;
+  padding:15px 20px;
   z-index:1000;
 }
 
 header h1{
   margin:0;
-  font-size:34px;
+  font-size:30px;
   letter-spacing:3px;
-  nav{
-  margin-top:15px;
 }
 
 nav a{
@@ -50,7 +48,7 @@ nav a:hover{
 
 /* HERO */
 .hero{
-  padding:50px 20px;
+  padding:25px 20px 50px;
   animation:aparecer 1s ease;
   background:linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(15,15,15,1));
 }
