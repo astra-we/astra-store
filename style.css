@@ -163,14 +163,14 @@ button:hover{
 }
 
 .galeria-grid img{
-  width:100%;
-  max-width:280px;
-  height:220px;
+  width:90%;
+  max-width:320px;
+  height:180px;
   object-fit:cover;
-  border-radius:15px;
+  object-position:center;
+  border-radius:18px;
   transition:0.3s;
 }
-
 .galeria-grid img:hover{
   transform:scale(1.05);
 }
