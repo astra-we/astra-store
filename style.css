@@ -163,9 +163,13 @@ nav a:hover{
 
   justify-content:center;
 
+  align-items:stretch;
+
   gap:30px;
 
   flex-wrap:wrap;
+
+  margin-top:40px;
 }
 
 .card{
@@ -174,17 +178,17 @@ nav a:hover{
 
   border:1px solid rgba(0,255,136,0.2);
 
-  backdrop-filter:blur(10px);
-
   border-radius:25px;
 
-  padding:40px 25px;
+  padding:35px 25px;
 
   width:280px;
 
-  transition:0.3s;
+  backdrop-filter:blur(10px);
 
   box-shadow:0 0 25px rgba(0,0,0,0.4);
+
+  transition:0.3s;
 }
 
 .card:hover{
@@ -198,14 +202,16 @@ nav a:hover{
 
 .card h3{
 
-  font-size:30px;
+  font-size:32px;
 
   margin-bottom:15px;
+
+  color:white;
 }
 
 .precio{
 
-  font-size:40px;
+  font-size:45px;
 
   color:#00ff88;
 
@@ -218,5 +224,7 @@ nav a:hover{
 
   color:#ccc;
 
-  margin-bottom:25px;
+  margin-bottom:30px;
+
+  font-size:18px;
 }
