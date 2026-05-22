@@ -239,4 +239,45 @@ nav a:hover{
   font-size:18px;
 
   margin-bottom:30px;
+}.galeria{
+
+  padding:80px 20px;
+}
+
+.galeria h2{
+
+  font-size:50px;
+
+  color:#00ff88;
+
+  margin-bottom:50px;
+}
+
+.imagenes{
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:25px;
+
+  flex-wrap:wrap;
+}
+
+.imagenes img{
+
+  width:300px;
+
+  border-radius:25px;
+
+  transition:0.3s;
+
+  box-shadow:0 0 25px rgba(0,0,0,0.5);
+}
+
+.imagenes img:hover{
+
+  transform:scale(1.05);
+
+  box-shadow:0 0 30px rgba(0,255,136,0.4);
 }
