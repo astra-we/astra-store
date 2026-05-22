@@ -144,4 +144,79 @@ nav a:hover{
   transform:scale(1.05);
 
   box-shadow:0 0 30px rgba(0,255,136,0.6);
+}.planes{
+  padding:80px 20px;
+}
+
+.planes h2{
+
+  font-size:42px;
+
+  margin-bottom:50px;
+
+  color:#00ff88;
+}
+
+.cards{
+
+  display:flex;
+
+  justify-content:center;
+
+  gap:30px;
+
+  flex-wrap:wrap;
+}
+
+.card{
+
+  background:rgba(255,255,255,0.05);
+
+  border:1px solid rgba(0,255,136,0.2);
+
+  backdrop-filter:blur(10px);
+
+  border-radius:25px;
+
+  padding:40px 25px;
+
+  width:280px;
+
+  transition:0.3s;
+
+  box-shadow:0 0 25px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+
+  transform:translateY(-10px);
+
+  border-color:#00ff88;
+
+  box-shadow:0 0 30px rgba(0,255,136,0.3);
+}
+
+.card h3{
+
+  font-size:30px;
+
+  margin-bottom:15px;
+}
+
+.precio{
+
+  font-size:40px;
+
+  color:#00ff88;
+
+  font-weight:bold;
+
+  margin-bottom:20px;
+}
+
+.card p{
+
+  color:#ccc;
+
+  margin-bottom:25px;
 }
